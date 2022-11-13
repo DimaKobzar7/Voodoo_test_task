@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voodoo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item grid__item--1-7">
+                    <form action="#" class="form" id="form" method="post">
+                        <h1 class="form__title">Contact Us</h1>
+                        <p class="form__text">The Voodoo team is looking forward to hearing from you!</p>
+                        <div class="grid">
+                            <div class="grid__item grid__item--1-6">
+                                <input
+                                    class="form__input"
+                                    type="text"
+                                    placeholder="Full Name*"
+                                    name="userName"
+                                >
+                            </div>
+                            <div class="grid__item grid__item--7-12">
+                                <input
+                                    class="form__input"
+                                    type="text"
+                                    placeholder="Title/Position*"
+                                    name="title"
+                                >
+                            </div>
+                            <div class="grid__item grid__item--1-6">
+                                <div class="form-group">
+                                    <div class="dropdown">
+                                        <button class="dropdown__button">
+                                            <span class="dropdown__button-text">Practice / Institution*</span>
+                                            <img src="./img/icons/arrow-down.svg" alt="arrow-down">
+                                        </button>
+                                        <ul class="dropdown__list">
+                                            <li class="dropdown__list-item" data-value="option 1">option 1</li>
+                                            <li class="dropdown__list-item" data-value="option 2">option 2</li>
+                                            <li class="dropdown__list-item" data-value="option 3">option 3</li>
+                                            <li class="dropdown__list-item" data-value="option 4">option 4</li>
+                                            <li class="dropdown__list-item" data-value="option 5">option 5</li>
+                                        </ul>
+                                        <input type="text" name="select-category" value="" class="dropdown__input-hidden" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__item grid__item--7-12">
+                                <input
+                                    class="form__input"
+                                    type="email"
+                                    name="userEmail"
+                                    placeholder="Email Address*"
+                                >
+                            </div>
+                            <div class="grid__item grid__item--1-6">
+                                <input
+                                    class="form__input"
+                                    type="number"
+                                    placeholder="Phone Number*"
+                                    name="phoneNumber"
+                                >
+                            </div>
+                            <div class="grid__item grid__item--7-12">
+                                <div class="form-group">
+                                    <div class="dropdown">
+                                        <button class="dropdown__button">
+                                            <span class="dropdown__button-text">Medical Profession*</span>
+                                            <img src="./img/icons/arrow-down.svg" alt="arrow-down">
+                                        </button>
+                                        <ul class="dropdown__list">
+                                            <li class="dropdown__list-item" data-value="option 1">option 1</li>
+                                            <li class="dropdown__list-item" data-value="option 2">option 2</li>
+                                            <li class="dropdown__list-item" data-value="option 3">option 3</li>
+                                            <li class="dropdown__list-item" data-value="option 4">option 4</li>
+                                            <li class="dropdown__list-item" data-value="option 5">option 5</li>
+                                        </ul>
+                                        <input type="text" name="select-category" value="" class="dropdown__input-hidden" >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__item grid__item--1-12">
+                                <div class="form-group">
+                                    <div class="dropdown">
+                                        <button class="dropdown__button">
+                                            <span class="dropdown__button-text">Type of Inquiry*</span>
+                                            <img src="./img/icons/arrow-down.svg" alt="arrow-down">
+                                        </button>
+                                        <ul class="dropdown__list">
+                                            <li class="dropdown__list-item" data-value="option 1">option 1</li>
+                                            <li class="dropdown__list-item" data-value="option 2">option 2</li>
+                                            <li class="dropdown__list-item" data-value="option 3">option 3</li>
+                                            <li class="dropdown__list-item" data-value="option 4">option 4</li>
+                                            <li class="dropdown__list-item" data-value="option 5">option 5</li>
+                                        </ul>
+                                        <input type="text" name="select-category" value="" class="dropdown__input-hidden" >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <textarea
+                            name="bigMessage"
+                            id=""
+                            cols="30"
+                            rows="10"
+                            placeholder="Enter Message*"
+                            class="form__area"
+                        ></textarea>
+                        <button type="submit" class="btn" form="form">Send Message</button>
+                    </form>
+                </div>
+                <div class="grid__item grid__item--8-12">
+                    <div class="map" >
+                        <div id="map"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp4mypNUkiisiumY6NRcEiE0nOY9EuOO0&region=JP&language=en&callback=initMap"
+      defer
+    ></script>
+</body>
+</html>
