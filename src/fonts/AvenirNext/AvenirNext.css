@@ -1,0 +1,7 @@
+/* @import url('../AvenirNextLTPro-Bold.otf'); */
+
+@font-face {
+  font-family: 'AvenirNext';
+  src: url("../AvenirNextLTPro-Bold.otf");
+  font-weight: 700;
+}

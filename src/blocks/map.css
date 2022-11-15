@@ -1,0 +1,87 @@
+
+.map {
+  height: 573px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .map {
+    height: 936px;
+  }
+}
+
+
+.map__wrap {
+  height: 600px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .map__wrap {
+    height: 960px;
+  }
+}
+
+.map__title {
+  margin: 0;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.67;
+  color: var(--primary);
+}
+
+.map__text {
+  margin: 0;
+
+  font-family: 'Inter';
+  font-size: 12px;
+  line-height: 1.67;
+  color: var(--primary);
+}
+
+.map__link {
+  display: flex;
+  align-items: center;
+
+  font-family: 'Inter';
+  font-size: 12px;
+  line-height: 1.83;
+  color: var(--secondary);
+
+  text-decoration: none;
+}
+
+.map__link img{
+  padding-right: 8px;
+}
+
+.gm-style-iw {
+  box-shadow: 0px 15px 30px rgba(220, 221, 243, 0.25) !important;
+  top: 12px !important;
+  /* странные отступы */
+  padding: 20px 30px 20px 20px !important;
+  min-width: 244px !important;
+
+}
+
+.gm-style-iw-t button {
+  display: none !important;
+}
+
+.gm-style-iw-tc ::after{
+  content: none;
+}
+
+.gm-style-iw {
+  overflow: visible !important;
+}
+
+.gm-style-iw div {
+  overflow: visible !important;
+}
+
+.gm-style-iw-tc {
+  display: none;
+}
