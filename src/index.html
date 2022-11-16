@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voodoo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="grid">
+          <div class="grid__item grid__item--1-7">
+            <form action="#" class="form" id="form" method="post">
+              <h1 class="form__title">Contact Us</h1>
+              <p class="form__text">
+                The Voodoo team is looking forward to hearing from you!
+              </p>
+              <div class="grid">
+                <div class="grid__item grid__item--1-6">
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Full Name*"
+                    name="userName"
+                  />
+                </div>
+                <div class="grid__item grid__item--7-12">
+                  <input
+                    class="form__input"
+                    type="text"
+                    placeholder="Title/Position*"
+                    name="title"
+                  />
+                </div>
+                <div class="grid__item grid__item--1-6">
+                  <select class="form__select" name="practice" id="">
+                    <option disabled selected>Practice / Institution*</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                  </select>
+                </div>
+                <div class="grid__item grid__item--7-12">
+                  <input
+                    class="form__input"
+                    type="email"
+                    name="userEmail"
+                    placeholder="Email Address*"
+                  />
+                </div>
+                <div class="grid__item grid__item--1-6">
+                  <input
+                    class="form__input"
+                    type="number"
+                    placeholder="Phone Number*"
+                    name="phoneNumber"
+                  />
+                </div>
+                <div class="grid__item grid__item--7-12">
+                  <select class="form__select" name="Medical Profession*" id="">
+                    <option disabled selected>Medical Profession*</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                  </select>
+                </div>
+                <div class="grid__item grid__item--1-12">
+                  <select class="form__select" name="Type of Inquiry*" id="">
+                    <option disabled selected>Type of Inquiry*</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                  </select>
+                </div>
+              </div>
+              <textarea
+                name="bigMessage"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Enter Message*"
+                class="form__area"
+              ></textarea>
+              <button type="submit" class="btn" form="form">
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="grid__item grid__item--8-12">
+            <div class="map">
+              <div class="map__wrap" id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp4mypNUkiisiumY6NRcEiE0nOY9EuOO0&region=JP&language=en&callback=initMap"
+      defer
+    ></script>
+  </body>
+</html>

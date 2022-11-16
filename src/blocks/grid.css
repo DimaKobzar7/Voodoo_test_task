@@ -1,0 +1,31 @@
+.grid {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 32px;
+  }
+}
+
+.grid__item--1-7 {
+  grid-column: 1 / 8;
+}
+
+.grid__item--1-6 {
+  grid-column: 1 / 7;
+}
+
+.grid__item--1-12 {
+  grid-column: 1 / 13;
+}
+
+.grid__item--7-12 {
+  grid-column: 7 / 13;
+}
+
+.grid__item--8-12 {
+  grid-column: 8 / 13;
+}
