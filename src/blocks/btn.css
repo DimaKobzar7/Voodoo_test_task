@@ -27,7 +27,8 @@
 }
 
 .btn:hover {
+  color: var(--primary);
+
   border-color:var(--primary);
   background-color: var(--white);
-  color: var(--primary);
 }

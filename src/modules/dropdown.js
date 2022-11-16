@@ -19,6 +19,7 @@ export function selectDropdown() {
 
   select.forEach((item, i) => {
     let elementDiv = document.createElement("div");
+
     elementDiv.className = "form__group";
     elementDiv.innerHTML = `
     <div class="dropdown">
