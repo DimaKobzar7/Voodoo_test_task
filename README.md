@@ -1,5 +1,7 @@
-The Voodoo-form (test task)
+1. The Voodoo-form (test task)
 
-Technology stack: JavaScript, HTML, CSS, CSS Grid
+2. [Preview](https://dimakobzar7.github.io/Voodoo_test_task/src/)
 
-Design: [Voodoo-form](https://www.figma.com/file/JM0jkJrqgG8sqeNHZ8AI7z/test-task?node-id=0%3A1)
+3. Technology stack: JavaScript, HTML, CSS, CSS Grid
+
+4. Design: [Voodoo-form](https://www.figma.com/file/JM0jkJrqgG8sqeNHZ8AI7z/test-task?node-id=0%3A1)
